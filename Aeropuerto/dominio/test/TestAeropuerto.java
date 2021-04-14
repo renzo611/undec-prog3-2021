@@ -4,6 +4,10 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import clases.Aerolinea;
+import clases.Aeropuerto;
+import clases.GestorAeropuerto;
+
 
 class TestAeropuerto {
 	Aeropuerto a1 = new Aeropuerto("A","Canada","Aeropuerto Nacional","27812453");

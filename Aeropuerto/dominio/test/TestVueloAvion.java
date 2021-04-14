@@ -2,7 +2,17 @@ package test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+import java.util.ArrayList;
+import java.util.GregorianCalendar;
+
 import org.junit.jupiter.api.Test;
+
+import clases.Aerolinea;
+import clases.Aeropuerto;
+import clases.Avion;
+import clases.EspecialidadPiloto;
+import clases.Piloto;
+import clases.Vuelo;
 
 
 class TestVueloAvion {

@@ -4,6 +4,11 @@ import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
+import clases.Aerolinea;
+import clases.Avion;
+import clases.EspecialidadPiloto;
+import clases.Piloto;
+
 
 class TestAerolinea {
 	Aerolinea a1 = new Aerolinea("Abu dhabi",15347812,"España","1245a");
@@ -35,12 +40,12 @@ class TestAerolinea {
 	}
 	@Test
 	void AgregarAvion() {
-		Avion a1 = new Avion("134a4", "Boeing 737-800","22-07-14",100);
+		Avion av1 = new Avion("134a4", "Boeing 737-800","22-07-14",100);
 		
-		Avion a2 = new Avion("134a4", "Nuevo Avion","22-07-14",100);
+		Avion av2 = new Avion("134b4", "Nuevo Avion","22-07-14",100);
 		
-		assertTrue(a1.agregarAvion(a1));
-		assertTrue(a2.agregarAvion(a2));
+		assertTrue(a1.agregarAvion(av1));
+		assertTrue(a1.agregarAvion(av2));
 		
 	}
 }
